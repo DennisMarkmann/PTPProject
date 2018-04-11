@@ -7,7 +7,7 @@ import org.junit.Test;
 public class CalculatorTest {
 
     @Test
-    public void testMultiplyException() {
+    public void testCalcLogic() {
         Calculator calc = new Calculator();
         assertEquals(8, calc.calculate());
     }
